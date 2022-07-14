@@ -1,9 +1,15 @@
 {
-	"name": "@jman.dev/tsconfig",
-	"version": "0.1.0",
-	"main": "tsconfig.json",
-	"repository": "jbmanning/tsconfig",
-	"dependencies": {
-		"@sindresorhus/tsconfig": "^3.0.1"
-	}
+  "name": "@jman.dev/tsconfig",
+  "version": "0.1.0",
+  "main": "tsconfig.json",
+  "repository": "jbmanning/tsconfig",
+  "files": [
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "@sindresorhus/tsconfig": "^3.0.1"
+  },
+  "devDependencies": {
+    "np": "^7.6.2"
+  }
 }
