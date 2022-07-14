@@ -6,6 +6,9 @@
   "files": [
     "tsconfig.json"
   ],
+  "scripts": {
+    "release": "np"
+  },
   "dependencies": {
     "@sindresorhus/tsconfig": "^3.0.1"
   },
